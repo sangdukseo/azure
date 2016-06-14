@@ -62653,7 +62653,7 @@ window.MsazuredatabasesservicesSdk = (function($class, sdk) {
       },
       init: function() {
         "Initializes the application.  Call only once.";
-        AP.baseUrl = "http://localhost:1337";
+        AP.baseUrl = "http://40.117.89.28";
         MsazuredatabasesservicesSdk._super.constructor.init.apply(this, arguments);
         // instantiate viewport and root view
         AP.Viewport = new AP.view.Viewport();
